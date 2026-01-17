@@ -76,7 +76,7 @@
 </head>
 
 <body>
-    <a href="#mainContent" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+       <a href="#mainContent" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
 
     <header class="site-header" role="banner">
         <div class="container site-header-inner">
@@ -90,7 +90,6 @@
                     <div id="gregorianDateTime" class="date-line"></div>
                     <div id="hijriDate" class="date-line"></div>
                 </div>
-
             </div>
 
             <div class="controls" role="search">
@@ -127,16 +126,36 @@
         </div>
     </section>
 
-    <main id="mainContent" class="container" role="main">
-        <h2 class="sr-only">قائمة الإذاعات الإسلامية المتاحة</h2>
+    <div class="container">
+        <div class="main-wrapper">
+            <!-- Sidebar للفلتر -->
+            <aside class="sidebar" id="sidebar" role="complementary" aria-label="فلتر التصنيفات">
+                <div class="sidebar-header">
+                    <h3 class="sidebar-title">📂 التصنيفات</h3>
+                </div>
+                <ul class="category-list" id="categoryList">
+                    <!-- سيتم ملؤها ديناميكياً -->
+                </ul>
+            </aside>
 
-        <section id="radiosContainer" aria-label="الإذاعات الإسلامية المباشرة">
-        </section>
+            <button class="sidebar-toggle" id="sidebarToggle" aria-label="فتح قائمة التصنيفات">
+                📂
+            </button>
 
-        <p id="noResultsMessage" class="sr-only" role="status" aria-live="polite">
-            لا توجد إذاعات مطابقة لبحثك حاليًا.
-        </p>
-    </main>
+            <!-- Main Content -->
+            <main id="mainContent" class="content-area" role="main">
+                <h2 class="sr-only">قائمة الإذاعات الإسلامية المتاحة</h2>
+
+                <section id="radiosContainer" aria-label="الإذاعات الإسلامية المباشرة">
+                    <!-- سيتم ملؤها ديناميكياً -->
+                </section>
+
+                <p id="noResultsMessage" class="sr-only" role="status" aria-live="polite">
+                    لا توجد إذاعات مطابقة لبحثك حاليًا.
+                </p>
+            </main>
+        </div>
+    </div>
 
     <footer role="contentinfo">
         <div class="container footer-inner">
@@ -145,7 +164,7 @@
                 تطوير: <strong>AhmedDEvly</strong> (Ahmed Abdel Gaffar).
             </div>
             <div class="accessibility-note">
-                <span class="pill">متوافق مع مبادئ WCAG 2.2 قدر الإمكان</span>
+                <span class="pill">متوافق مع مبادئ WCAG 2.2</span>
             </div>
         </div>
     </footer>
