@@ -22,15 +22,6 @@
         tags: "السعودية إذاعة القرآن السعودية quran saudi makkah"
       },
       {
-        id: "algeria_quran",
-        title: "إذاعة القرآن الكريم من الجزائر",
-        category: "قرآن كريم",
-        badge: "بث رسمي",
-        description: "الإذاعة الجزائرية الرسمية للقرآن الكريم.",
-        src: "https://webradio.tda.dz/Coran_64K.mp3",
-        tags: "الجزائر القرآن الكريم الجزائرية quran algeria official"
-      },
-      {
         id: "quran_nablus",
         title: "إذاعة القرآن الكريم من نابلس",
         category: "قرآن كريم",
