@@ -38,7 +38,12 @@ Developed with a focus on **Performance**, **SEO**, and **Accessibility (WCAG 2.
 
 ### 📸 Preview
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/050814/F5D261?text=Project+Screenshot+Placeholder" alt="Project Screenshot" width="100%" style="border-radius: 10px; border: 2px solid #F5D261;">
+
+<img width="1674" height="600" alt="Preview-1" src="https://github.com/user-attachments/assets/f6c694a8-82f1-49eb-ac55-ef9641e18f70" />
+
+<img width="1417" height="760" alt="Preview-2" src="https://github.com/user-attachments/assets/a67cb0d8-0936-4d27-b702-735c5e943f3d" />
+
+  
   <p><em>(Add a screenshot or GIF of your project here to increase engagement)</em></p>
 </div>
 
