@@ -56,7 +56,6 @@
         z-index: -1;
     }
 
-    /* ===== Header Styles - محسّن ===== */
     header.site-header {
         border-bottom: 1px solid rgba(245, 210, 97, 0.15);
         background: linear-gradient(135deg, rgba(11, 20, 30, 0.96), rgba(4, 7, 15, 0.96));
@@ -504,7 +503,6 @@
         border: 0;
     }
 
-    /* ===== Media Queries - محسّن ===== */
 
     /* Tablet View */
     @media (max-width: 900px) {
