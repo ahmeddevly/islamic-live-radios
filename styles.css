@@ -982,3 +982,33 @@
     }
 }
 
+
+/* ===== Favorites Feature ===== */
+.favorite-btn {
+  position: absolute;
+  top: 75px;
+  left: 0.5rem;
+  background: #38382a;
+  border: 1px solid rgba(245, 210, 97, 0.3);
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+  z-index: 10;
+}
+
+.favorite-btn:hover {
+  background: rgba(245, 210, 97, 0.15);
+  border-color: var(--color-primary);
+  transform: scale(1.1);
+}
+
+.favorite-btn.active {
+  background: linear-gradient(135deg, rgba(245, 210, 97, 0.3), rgba(245, 210, 97, 0.2));
+  border-color: var(--color-primary);
+}
+
